@@ -11,7 +11,7 @@ return {
 			Model = nil,
 			Height = 5.2,
 			Ambush = {
-				Enabled = false,
+				Enabled = true,
 				MinCycles = 1,
 				MaxCycles = 6,
 				AmbienceMusic = workspace.Ambience_Ambush,
@@ -21,7 +21,7 @@ return {
 			Sounds = { "PlaySound", "Footsteps" },
 			WaitTime = 5,
 			Shaking = {
-				Enabled = false,
+				Enabled = true,
 				Config = { 15, 8.8, 0, 2, 1, 6 },
 				ActivateAtStuds = 35,
 			},
